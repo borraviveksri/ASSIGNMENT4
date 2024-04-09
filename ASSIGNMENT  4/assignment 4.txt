@@ -1,0 +1,55 @@
+Ans1)
+#include<iostream>
+using namespace std;
+int main(){
+int n,n10,n20,n50,n100,n500;
+n10=n20=n50=n100=n500=0;
+cout<<"Enter the amount : ";
+cin>>n;
+switch (n>=500)
+{
+case 1 :
+    n500 = n/500;
+    n -= n500*500;
+    break;}
+switch (n>=100)
+{
+case 1 :
+    n100 = n/100;
+    n -= n100*100;
+    break;}
+    switch (n>=50)
+{
+case 1 :
+    n50 = n/50;
+    n -= n50*50;
+    break;}
+    switch (n>=20)
+{
+case 1 :
+    n20 = n/20;
+    n -= n20*20;
+    break;}
+switch (n>=10)
+{
+case 1 :
+    n10 = n/10;
+    n -= n10*10;
+    break;}
+
+cout<<n500<<endl<<n100<<endl<<n50<<endl<<n20<<endl<<n10;
+return 0;
+}
+
+Ans2)
+a = 15, b = 15, c = 0,
+Ans3)
+x and y are equal
+Ans4)
+First character 1
+Second character 49
+Ans5)
+Value of t : 0
+Ans6)
+N
+
